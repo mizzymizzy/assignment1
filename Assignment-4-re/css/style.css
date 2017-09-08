@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "FontAwesome" ;
+
+}
+
+.cf::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a{
+  text-decoration: none;
+}
+
+.p,th,input,option,td{
+  font-family: serif;
+}
+
+.wrapper{
+  width: 980px;
+  margin: 0 auto;
+}
+
+.header-top{
+  margin-top: 15px;
+}
+
+.home{
+  background: url("../img/home-icon.png") no-repeat;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.mainImg{
+  width: 110px;
+  height: 45px;
+  display: block;
+  margin:  0 auto;
+}
+
+.eng{
+  background: orange;
+  color: #fff;
+  line-height: 1.8;
+  text-align: center;
+  padding: 0 50px;
+  float: right;
+  margin-top: -40px;
+  font-family: serif;
+}
+
+.nav{
+  margin-top: 10px;
+}
+
+.nav li{
+  float: left;
+  width: 140px;
+  height: 1.8;
+  text-align: center;
+  border-top: 1px solid #d1ad5a;
+  border-bottom: 2px solid #d1ad5a;
+}
+
+.nav li a{
+  color: black;
+  line-height: 1.8;
+  /*font-family: serif;*/
+  font-weight: bold;
+}
+
+.mainVisual{
+  background: url("../img/main.jpg") no-repeat;
+  background-size: 100%;
+  height: 416px;
+  padding-top: 100px;
+}
+
+
+.w{
+  color: #fff;
+  text-align: center;
+  line-height: 1.6;
+  /*font-family: serif;*/
+}
+
+.large{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.small{
+  margin: 10px 0;
+}
+
+.secHead{
+  background: #d1ad5a;
+  width: 100%;
+}
+
+h1{
+  color: #fff;
+  font-size: 20px;
+  line-height: 2.0;
+  /*font-family: serif;*/
+}
+
+.q-a{
+  margin: 30px 0;
+  line-height: 2.0;
+
+}
+
+.q1{
+  border-top: 1px solid #d1ad5a;
+  border-bottom: 1px solid #d1ad5a;
+}
+
+.dt::before{
+  font-family: "FontAwesome";
+  content: "\f29c";
+  /*content: "\f059"*/
+}
+
+.dd::before{
+  font-family: "FontAwesome";
+  content: "\f06a"
+}
+
+.dt,dd{
+  /*font-family: serif;*/
+  padding: 10px;
+}
+
+.pro{
+  color: #d1ad5a;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d1ad5a;
+}
+
+.nec{
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+table{
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+  width: 980px;
+}
+
+table th, table td{
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+  border-collapse: collapse;
+}
+
+table th{
+  padding: 30px 30px;
+  border-right: 1px dotted gray;
+}
+
+table td{
+  padding-left: 10px;
+  padding: 10px;
+}
+
+.submit{
+  display: block;
+  margin: 10px auto 30px;
+  width: 200px;
+  height: 40px;
+  background: orange;
+  color: #fff;
+  border-radius: 5px;
+}
+
+em{
+  color: red;
+}
+
+footer{
+  color: white;
+  background: black;
+  text-align: center;
+  line-height: 2.0;
+}
